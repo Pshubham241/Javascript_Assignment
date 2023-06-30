@@ -1,0 +1,187 @@
+Q : -  1   What are the advantages of Bootstrap?
+
+ANS.   .  Easy initiation. Coding is a hurricane task for a person who is unbeknownst to web 
+          development. ..
+
+       .  Responsiveness WEBSITE.
+
+       .  Far-reaching popularity.
+
+       .  Extremely user-centric
+
+       .   Updates at the doorstep
+
+       .   Highly customizable.....
+
+       
+
+Q : -  2   What is a Bootstrap Container, and how does it work?
+
+ANS.     .  Containers are the most basic layout element in Bootstrap and are required when using our 
+           default grid system. Containers are used to contain, pad, and (sometimes) center the content within them. While containers can be nested, most layouts do not require a nested container.
+
+         .  The table below illustrates how each container’s max-width compares to the original 
+            .container and .container-fluid across each breakpoint.
+
+         .  (1) ..Default container..
+                  The table below illustrates how each container’s max-width compares to the original 
+                  .container and .container-fluid across each breakpoint.
+
+            (2) ..Responsive containers..
+                  Responsive containers allow you to specify a class that is 100% wide until the specified breakpoint is reached, after which we apply max-widths for each of the higher breakpoints. 
+
+            (3) ..Fluid containers...
+
+                  Use .container-fluid for a full width container, spanning the entire width of the viewport.
+
+
+
+
+
+Q : - 3   What are the default Bootstrap text settings?
+
+
+ANS.     ..Bootstrap 4 Default Settings...
+
+         Bootstrap 4 uses a default font-size of 16px, and its line-height is 1.5. The default font-family is "Helvetica Neue", Helvetica, Arial, sans-serif. In addition, all <p> elements have margin-top: 0 and margin-bottom: 1rem (16px by default).
+
+
+
+
+
+
+
+Q : -  4   What do you know about the Bootstrap Grid System
+
+
+ANS.    .   Bootstrap's grid system uses a series of containers, rows, and columns to layout and align
+            content. It's built with flexbox and is fully responsive. Below is an example and an in-depth look at how the grid comes together. New to or unfamiliar with flexbox?
+
+        .   Bootstrap's grid system allows up to 12 columns across the page.
+
+
+        .   Grid Classes...
+
+        .     xs (for phones - screens less than 768px wide)
+              sm (for tablets - screens equal to or greater than 768px wide)
+              md (for small laptops - screens equal to or greater than 992px wide)
+              lg (for laptops and desktops - screens equal to or greater than 1200px wide)
+
+
+
+
+
+Q : -  5   What is the difference between Bootstrap 4 and Bootstrap 5
+
+ANS.     .  The form elements in Bootstrap 4 have defaulted to the browser-provided view. However, in
+           Bootstrap 5, the form elements have a custom design that enables them to have a consistent look and feel in all browsers. The new form controls are based on completely semantic, standard form controls.
+
+         .  Bootstrap 4 and Bootstrap 5 Checkboxes CHANGES FOR radios, selects, and other inputs  
+            that had native and custom classes in v4  have been consolidated.
+
+         .   The above section talked about the features of both Bootstrap 4 and Bootstrap 5. This 
+             section talks about the upgrades that Bootstrap 5 provides over Bootstrap 4.
+
+         .   Bootstrap 4 had limited color options. But Bootstrap 5 has included many new color 
+             options to its color palette, enabling you to choose from the various shades available. You can find some of the color shades below.
+
+
+
+         
+
+
+
+
+
+Q : -  6  What is a Button Group, and what is the class for a basic Button Group?
+
+
+
+ANS.   .  This class is used for a basic button group. Wrap a series of buttons with class .btn in
+           .btn-group
+
+       .  Button groups allow multiple buttons to be stacked together on a single line. This is 
+          useful when you want to place items like alignment buttons together. You can add on optional JavaScript radio and checkbox style behavior with Bootstrap Button Plugin. This class is used for a basic button group.
+
+       .  The three main classes that are used to create a button group are the btn-group class, 
+          the  btn class and one of the contextual classes (. btn-*)
+
+       .  Button Toolbar ;-
+
+       .  Nesting        :- You can nest button groups within another button group i.e, place a 
+                            .btn-group within another .btn-group . This is done when you want dropdown menus mixed with a series of buttons.
+
+
+
+
+.  
+       
+
+
+Q : -  7   How can you use Bootstrap to make thumbnailsp?
+
+ANS.        Bootstrap elps web developers to create thumbnails that are used to
+            show linked images in grids with the pre-defined classes which help to
+            reduce codes length. Thumbnails are created to provide a quick preview of
+            images with small images.
+
+            Thumbnail Image: A thumbnail is a small image that represents a larger
+            image. Bootstrap has an easy way to do this with thumbnails.
+            Bootstrap’s .thumbnail class is used to show linked images in grids (grid
+            system), a thumbnail is created using class .thumbnail within the
+            element <a>. The class .col-sm-* and .col-md-* (where * represent number
+            ), it is used to create grids of the images.
+
+
+Q : -  8   In Bootstrap 4, what is flexbox
+
+ANS.        Bootstrap 4 flex box is used to control the layout and alignment
+            specification of Bootstrap 4 components. This box makes it easier to design
+            flexible responsive layout structures without using float or positioning
+            attributes.
+
+
+
+
+Q : -  9    How can one create an alert in Bootstrap?
+
+ANS....     Bootstrap alerts are used to get sudden attention to the message. You
+            can easily create alert messages using bootstrap. It also provides the
+            functionality to create an alert message which is dismissible.
+
+            Alert messages are used quite often for some information to have a special
+            focus, or immediate attention, like warning messages or alert messages.
+            The alert snippets with bootstrap are available for any length of text as
+            well as it has an optional button to dismiss the message.
+
+            To create a bootstrap alert message, use the <div> element with
+
+            the alert class in bootstrap.
+            A simple alert message is created by using the bootstrap alert class with
+            the type of alert messages you want like alert-primary, alertsecondary, alert-success, alert-danger, alert-warning, alert-info, alertlight, and alert-dark.
+
+
+
+
+Q : -  10  What is a bootstrap card and how would you create one. 
+
+ANS....    A card is a flexible and extensible content container. It includes
+            options for headers and footers, a wide variety of content, contextual
+            background colors, and powerful display options.
+            It replaces the use of panels, wells and thumbnails. All of it can be used
+            in a single container called card.
+
+            Basic Card: The building block of a card is the card-body within the parent
+            class card.
+
+            Header and Footer: The card-header provides a header to the cards and cardfooter provides a footer to the cards.
+
+            Card Title and Links: The card-title is used to give a title to the card
+            and card-link is used to provide link to the card if required in it.
+            
+            Card Images: 
+            The images to the card are inserted with card-img-top and
+            with card-img-bottom with the help of these two and img tag is used with it
+            to input the image.
+
+   
