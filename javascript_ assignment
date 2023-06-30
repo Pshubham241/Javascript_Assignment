@@ -1,0 +1,155 @@
+
+
+Q-1   :- What is JavaScript?
+
+Ans-1 :- JavaScript is a scripting Language. for use in website dynamic  changeing.
+         whose implementations allow client-side script to interact with the user and make dynamic pages. It is an interpreted programming language with object-oriented capabilities.
+
+      
+Q-2   :-  What is the use of isNaN function?
+
+Ans-2 :-  The isNaN() function determines whether a value is NaN when converted to a number. 
+          The function accepts a value and determines whether the given value is a number or not. If so, this method returns true else it returns false. 
+          you can also call to function only method using Number object.
+
+
+Q-3   :-  What is negative Infinity?
+
+Ans-3 :-  Negative Infinity is a special numeric value that is returned when an arithmetic 
+		  operation or mathematical function generates a negative value greater than the largest representable number in JavaScript Negative Infinity.
+		  Take a close look at this visual display of infinity — positive and negative infinity ride along an infinitely long zip line in opposite directions.(Infinity === Infinity )
+
+Q-4   :- Which company developed JavaScript?
+
+Ans-4   :- JavaScript was invented by Brendan Eich.and handover by the Mozilla foundation continued 
+         to develop JavaScript for the Firefox browser.
+
+ Q-5   :-  What are undeclared and undefined variables?
+
+
+Ans-5   :-  Undefined means the variable has been declared, but its value has not been assigned. Null
+    	   means an empty value or a blank value.
+           Undeclared variables are those that have not been declared or defined in the current scope, 
+           while undefined variables are those that have been declared but not given a value.
+           "undefined" and "not defined" are two different values in Script "undefined" indicates that a variable has been declared but not given a value, while "not defined" indicates that a variable does not exist.
+
+Q-6   :-  Write the code for adding new elements dynamically?
+
+
+Ans-6   :- The createElement() method in JavaScript can be used to create new items dynamically.
+           The setAttribute() method is used to set the attributes of the newly generated element.
+           By clicking a button, a modal box appears and collects the required information dynamically.
+           Adding a new Element . A Body Element Using classList.add(),Add A Class To An Element On Click.
+
+Q-7    :- What is the difference between ViewState and SessionState?
+
+Ans    :- Session state is saved on the server, ViewState is saved in the page. Session state is
+          usually cleared after a period of inactivity from the user (no request happened containing the session id in the request cookies). The view state is posted on subsequent post back in a hidden field.
+
+ Q-8    :- What is === operator?
+
+ Ans    :- The strict equality ( === ) operator checks whether its two operands are equal, returning a 
+           Boolean result.
+           the strict equality operator always considers operands of different types to be different.
+
+  Q-9    :- How can the style/class of an element be changed?
+
+
+  Ans     :-- Element Class Names,Another way to alter the style of an element is by changing its class
+                  
+             attribute. class is a reserved word in JavaScript, so in order to access the element's class, you use element. className .
+            . Use the querySelectorAll() method to get a collection of the elements with the specific
+              class.
+            . use a full stop (.) followed by the class name in a style block.Next, use a bracket 
+              called a declaration block that contains the property to stylize the element,
+
+Q-10   :- How to read and write a file using JavaScript?
+
+Ans    :- The read and write operations in a file can be done by using some commands.
+          Writing file Synchronously. For writing a file synchronously we need to use the function fs. writeFileSync() function.
+          file=fopen(getScriptPath(),0); The function fread() is used for reading the file content.
+          Writing file Asynchronously. For writing a file asynchronously, we need to use the fs. writeFile() function.
+
+
+Q-11   :--What are all the looping structures in JavaScript?
+
+Ans    :--    different types of loops
+              Two major types of loops are FOR LOOPS and WHILE LOOPS. 
+			. for - loops through a block of code a number of times.
+			. for/of - loops through the values of an iterable object.
+			. for/in - loops through the properties of an object.
+			. while - loops through a block of code while a specified condition is true.
+
+Q-12    :-  How can you convert the string of any base to an integer in JavaScript?
+
+Ans     :-  to convert a string to an integer parseInt(), Number(), and Unary operator(+) function is 
+			used in javascript. parseInt() function returns Nan( not a number) when the string doesn’t contain number. If a string with a number is sent, then only that number will be returned as the output. This function won't accept spaces.
+
+			If any particular number with spaces is sent, then the part of the number that presents before space will be returned as the output. 
+
+Q-13       :- What is the function of the delete operator?
+
+Ans        :- The delete operator removes a given property from an object. 
+
+              On successful deletion, it will return true, else false will be returned. Unlike what common belief suggests (perhaps due to other programming languages.
+
+              If the property which you are trying to delete does not exist, delete will not have any effect and will return true.
+
+              delete only has an effect on own properties. If a property with the same name exists on the object's prototype chain, then after deletion, the object will use the property from the prototype chain.
+
+ Q-14        :-  What are all the types of Pop up boxes available in JavaScript?        
+
+
+ Ans        :-  JavaScript has three kind of popup boxes: Alert box, Confirm box, and Prompt box.
+
+ 			. Alert Box
+
+                  An alert box is often used if you want to make sure information comes through to the user. When an alert box pops up, the user will have to click "OK" to proceed.
+
+             .Confirm Box
+
+               A confirm box is often used if you want the user to verify or accept something.
+               When a confirm box pops up, the user will have to click either "OK" or "Cancel" to proceed.
+
+             .Prompt Box
+
+               A prompt box is often used if you want the user to input a value before entering a page.
+               When a prompt box pops up, the user will have to click either "OK" or "Cancel" to proceed after entering an input value.
+                
+             .Line Breaks
+
+             To display line breaks inside a popup box, use a back-slash followed by the character n.
+
+ Q-14        :- What is the use of Void (0)?
+
+ Ans        :- JavaScript void 0 means returning undefined (void) as a primitive value. You might
+               come across the term “JavaScript:void(0)” while going through HTML documents.
+               We can use JavaScript void 0 to prevent reloading of a page. For instance, URLs or hyperlinks are the common examples of using JavaScript void 0. 
+               When you use JavaScript void 0, it will return an undefined primitive value. 
+               This will prevent the browser from opening a new or reloading the web page and allowing you to call the JavaScript through it.
+
+Q-15         :- How can a page be forced to load another page in JavaScript?
+
+Ans          :- In JavaScript, we can use window. location object to force a page to load another 
+                page. We can use the location object to set the URL of a new page.
+                This property contains information about the current URL of the page, and it can be used to redirect the user to a new page.
+
+                no answer
+
+
+Q-16         :- What are the disadvantages of using innerHTML in JavaScript?
+
+
+Ans          :-  ..Disadvantages of innerHTML...
+
+				 ..Event handlers attached to any DOM element are preserved.
+
+				 ..Replacement is done everywhere.
+
+				 ..It is not possible to append innerHTML.
+
+				 .. Breaks the document.
+
+				 .. Used for Cross-site Scripting.
+
+	
