@@ -1,0 +1,52 @@
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<title>show in password</title>
+
+		<style type="text/css">
+			button
+			{
+				height: 30px;
+				width: 80px;
+				border: 1px solid red;
+				text-transform: uppercase;
+
+			}
+		</style>
+
+
+	</head>
+	<body>
+		</label> password  </label>
+		<input type="password" name="" id="show" >
+		<br>
+		
+		<br>
+		<label>show password</label>
+		<input type="checkbox" name="" onclick="myFunction()">
+		<br>
+
+		<br>
+
+		<button onclick="myFunction()" id="xx">submit</button>
+		<script type="text/javascript">
+			 function myFunction()
+			 {
+
+			 	var shu  = document.getElementById("xx");
+			 	var show = document.getElementById("show");
+
+			 	if (show.type =="password"){
+			 		show.type = "text";
+			 	}
+
+			 	
+			 	else 
+			 	{
+			 		show.type = "password";
+			 	}
+			 }
+
+		</script>
+	</body>
+	</html>
